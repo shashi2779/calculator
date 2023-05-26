@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.submit{
+    display: flex;
+}
+.apply{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+    height: 7vh;
+    background-color: #333333;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+.cancle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28vw;
+    height: 7vh;
+    background-color: white;
+    color: #333333;
+    margin-left: 2rem;
+    border: 2px solid #706d6d;
+    border-radius: 1rem;
+}
+.show-datails{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 1.3rem;
+}
+.show-datails h5{
+    margin-right: .3rem;
+    font-weight: 500;
+}

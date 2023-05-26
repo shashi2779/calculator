@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'montserrat'; */
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.Nav-bar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color:#2C2C2C ;
+}
+.Nav-bar .icon-color{
+    color: white;
+    margin-left: .5rem;
+}
+.Nav-bar h3{
+    color: white;
+    font-family: montserrat;
+    font-weight: 400;
+    margin-left: 34rem;
+}
+
+@media screen and (max-width: 600px) {
+   
+    .Nav-bar h3{
+        color: white;
+        font-family: montserrat;
+        font-weight: 400;
+        margin-left: 7rem;
+    } 
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.main-section-white{
+    width: 60vw;
+    height: 87vh;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .main-section-white{
+        width: 80vw;
+        height: 65vh;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+}

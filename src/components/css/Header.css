@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.head-p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .4rem;
+}
+.head-p1 h5{
+    font-size: 1.3rem;
+}
+.head-p2{
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    margin-left: 46rem;
+    padding: .1rem;
+}
+.switch-size{
+    margin-left: 5rem;
+}
+
+.switch-size h4{
+    margin-left: 1.3rem;
+} 
+
+
+.head-p2 .switch-size{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}

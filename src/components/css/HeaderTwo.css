@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.input-header{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    border: 3px solid #89C7F4;
+    background-color: #F9FAFB;
+    border-radius: 1rem;
+}
+.part-2{
+    display: flex;
+}
+.part-2-4{
+ margin-left: 4rem ;
+}
+.InputArea{
+    display: flex;
+    margin-left: 1rem;
+    width: 58vw;
+    height: 5vh;
+    /* background-color: red; */
+}
+.part-2{
+    width: auto;
+    height: 3rem;
+    /* background-color: red; */
+}
+.part-2-1{
+top: .7rem;
+position: relative;
+background-color:#FFF9AA ;
+width: 8rem;
+height: 2.3rem;
+border-radius:.8rem;
+margin-left: 1rem;
+}
+.part-2-2{
+top: .7rem;
+position: relative;
+background-color:#FFF9AA ;
+width: 6rem;
+height: 2.3rem;
+border-radius:.8rem;
+margin-left: 2rem;
+}
+.part-2-3{
+    top: .7rem;
+    position: relative;
+    background-color:#FFF9AA ;
+    width: 6rem;
+    height: 2.3rem;
+    border-radius:.8rem;
+    margin-left: 2rem;
+}
+.part-2-1 h5{
+    position: absolute;
+    top: .6rem;
+    left: 1rem;
+    font-size: .8rem;
+}
+.part-2-2 h5{
+    position: absolute;
+    top: .6rem;
+    left: 1.8rem;
+    font-size: .8rem;
+}
+.part-2-3 h5{
+    position: absolute;
+    top: .6rem;
+    left: 2rem;
+    font-size: .8rem;
+}
+
+.part-2-41{
+    top: .7rem;
+    position: relative;
+    /* background-color:#FFF9AA ; */
+    width: 6rem;
+    height: 2.3rem;
+    border-radius:.8rem;
+    /* margin-left: 32rem ; */
+}
+.part-input{
+  
+    display: flex;
+}
+.part-2-2-1{
+    margin-left: 28rem;
+    margin-top: 1rem;
+    
+}
+
