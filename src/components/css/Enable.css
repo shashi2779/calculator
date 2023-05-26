@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding: ;
     /* font-family: 'montserrat'; */
 }
 html,body{
@@ -32,6 +31,7 @@ html,body{
 .enable-1-1{
     margin-left: 1rem;
     margin-bottom: .8rem;
+    color:#A3A3A3 ;
 }
   
   .enable-2-1{
@@ -40,9 +40,10 @@ html,body{
       justify-content: center;
       width: 18vw;
       height: 5vh;
-      background-color: #FCEB74;
+      background-color: #F9FAFB;
       margin-left: 1rem;
       border-radius: 1rem;
+      color:#A3A3A3 ;
   }
   .enable-2-2{
       display: flex;
@@ -53,6 +54,7 @@ html,body{
       background-color: #F9FAFB;
       margin-left: 2rem;
       border-radius: 1rem;
+      color:#A3A3A3 ;
   }
   .enable-2-3{
       display: flex;
@@ -63,6 +65,7 @@ html,body{
       background-color: #F9FAFB;
       margin-left: 2rem;
       border-radius: 1rem;
+      color:#A3A3A3 ;
   }
   .enable-2-4{
       display: flex;
@@ -70,7 +73,7 @@ html,body{
       justify-content: center;
       width: 18vw;
       height: 5vh;
-      background-color: #F9FAFB;
+      background-color: #FCEB74;
       margin-left: 2rem;
       border-radius: 1rem;
   }
@@ -83,4 +86,5 @@ html,body{
       background-color: #F9FAFB;
       margin-left: 2rem;
       border-radius: 1rem;
+      color:#A3A3A3 ;
 }

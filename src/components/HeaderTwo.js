@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./css/HeaderTwo.css"
 
 
 function HeaderTwo() {
-  const [inputVal,setInputVal] = useState('2.10000 CAKE')
   return (
     <>
       <div>

@@ -18,6 +18,12 @@ html,body{
     background-color: #F9FAFB;
     border-radius: 1rem;
 }
+.input-header h4{
+  margin-left: 46rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: rgb(51, 50, 50);
+}
 .part-2{
     display: flex;
 }
@@ -48,7 +54,7 @@ margin-left: 1rem;
 .part-2-2{
 top: .7rem;
 position: relative;
-background-color:#FFF9AA ;
+background-color:#F9FAFB ;
 width: 6rem;
 height: 2.3rem;
 border-radius:.8rem;
@@ -57,7 +63,7 @@ margin-left: 2rem;
 .part-2-3{
     top: .7rem;
     position: relative;
-    background-color:#FFF9AA ;
+    background-color:#F9FAFB ;
     width: 6rem;
     height: 2.3rem;
     border-radius:.8rem;
