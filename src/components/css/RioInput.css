@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'montserrat'; */
+    font-family: sans-serif;
 }
 html,body{
     width: 100vw;
@@ -10,34 +10,32 @@ html,body{
 }
 .Rio{
     width: 58vw;
-    height: 8rem;
+    height: 7.5rem;
+    /* width: 55.7rem;
+    height: 4rem; */
     /* background-color: blue; */
-    margin-left: 1rem;
-    margin-top: 1rem;
+    /* margin-left: 1rem; */
+    margin-top: .1rem;
+    font-family: sans-serif;
+    margin-bottom: 1.2rem;
 }
-.Rio h4{
-    margin-left: 46rem;
-}
-.Rio h5{
-    margin-left: 48rem;
+.Rio-input-header{
+    display: flex;
+    align-items: center;
 }
 
-.Input-Pencil{
-    /* position: absolute; */
-    /* padding: 2rem 2rem; */
-    display: flex;
-    padding: 1rem;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: .7rem;
-    margin-bottom: .7rem;
-    border: 3px solid #89C7F4;
-    background-color: #F9FAFB;
-    border-radius: 1rem;
-    color:#A3A3A3 ;
+.pencil-fig{
+    color:#A3A3A3;
 }
-.Input-Pencil h3{
-    color: rgb(36, 36, 36);
-    font-weight: 900;
-    font-size: larger;
+.Rio h4{
+    margin-left: 46.3rem;
+    font-weight: 700;
+    color: #A3A3A3;
+    font-size: .9rem;
 }
+.Rio h5{
+    margin-top: .6rem;
+    margin-left: 47.6rem;
+    color: #A3A3A3;
+}
+

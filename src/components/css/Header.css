@@ -7,12 +7,19 @@ html,body{
     width: 100vw;
     height: 100vh;
 }
-
+.Header-main{
+    margin-top: -.3rem;
+    width: 57.9vw;
+    height: 8vh;
+    background-color: red;
+    /* overflow: hidden; */
+}
 .head-p1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .4rem;
+    /* padding: .4rem; */
+    /* background-color: red; */
 }
 .head-p1 h5{
     font-size: 1.3rem;
@@ -21,18 +28,46 @@ html,body{
     /* background-color: red; */
     display: flex;
     /* align-items: center; */
-    margin-left: 46rem;
-    padding: .1rem;
+    margin-left: 43rem;
+    /* padding: .1rem; */
+    margin-bottom: .1rem;
+    width: 13.2vw;
+    height: 3vh;
+    background-color: yellow;
+}
+.cake-main{
+    width: 5vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+.cake-head-2{
+    width: 1.3rem;
+    height: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4DD7DD;
+    color: #FCEB74;
+    
+}
+.cake-main h4{
+    margin-left: 1rem;
+}
+.head-p2 h4{
+    color:#808080;
 }
 .switch-size{
-    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7vw;
+    height: 3vh;
+    /* margin-left: 5.5rem; */
+    /* background-color: black; */
 }
-
-.switch-size h4{
-    margin-left: 1.3rem;
-} 
-
-
 .head-p2 .switch-size{
     position: absolute;
     display: flex;

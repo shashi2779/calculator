@@ -18,7 +18,7 @@ html,body{
     height: 7vh;
     background-color: #333333;
     color: white;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     border-radius: 1rem;
 }
 .cancle{
