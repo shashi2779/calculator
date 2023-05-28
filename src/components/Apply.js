@@ -8,10 +8,6 @@ function Apply() {
         <div className='apply'>Apply</div>
         <div className='cancle'>Cancel</div>
       </div>
-      <div className='show-datails'>
-        <h5>Show details</h5>
-        <i className="ri-arrow-down-s-line"></i>
-      </div>
     </>
   )
 }

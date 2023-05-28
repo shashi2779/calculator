@@ -21,6 +21,9 @@ html,body{
     /* margin-left: 1rem; */
     border-radius: 1rem;
 }
+.apply:hover{
+    border: 2px solid #706d6d;
+}
 .cancle{
     display: flex;
     align-items: center;
@@ -33,13 +36,6 @@ html,body{
     border: 2px solid #706d6d;
     border-radius: 1rem;
 }
-.show-datails{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 1.3rem;
-}
-.show-datails h5{
-    margin-right: .3rem;
-    font-weight: 500;
+.cancle:hover{
+    border: 2px solid #333333;
 }

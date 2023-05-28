@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import "./css/HeaderTwo.css"
-
+import "./css/MainSection.css"
 
 function HeaderTwo() {
-  const [inputVal, setInputVal] = useState('2.10000 CAKE')
+  const [inputVal, setInputVal] = useState('2.1000 CAKE')
 
   let getValue = (e) => {
     setInputVal(e.target.value)
@@ -13,10 +13,11 @@ function HeaderTwo() {
     <>
       <div>
         <div className='input-header'>
-          <input id="myText" value={`${inputVal}`} onChange={getValue} type="text" style={{
+          <input className="myText" value={`${inputVal}`} onChange={getValue} type="text" style={{
             type: "text",
             border: 'none', background: 'transparent', outline: 0
           }} />
+          
         </div>
 
         <div className='part-input'>

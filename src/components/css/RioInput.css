@@ -10,9 +10,7 @@ html,body{
 }
 .Rio{
     width: 58vw;
-    height: 7.5rem;
-    /* width: 55.7rem;
-    height: 4rem; */
+    height: 17vh;
     /* background-color: blue; */
     /* margin-left: 1rem; */
     margin-top: .1rem;
@@ -22,10 +20,43 @@ html,body{
 .Rio-input-header{
     display: flex;
     align-items: center;
+     padding: 1rem;
+     width: 58vw;
+     height: 9vh;
+     margin-top: .7rem;
+     border: 1px solid #89C7F4;
+     background-color: #F9FAFB;
+     border-radius: 1rem;
+}
+.Rio-input-header:hover{
+    border: 2.5px solid #89C7F4;
 }
 
 .pencil-fig{
+    font-size: 2rem;
+    font-weight: 100;
     color:#A3A3A3;
+    /* background-color: yellow; */
+}
+.pencil-fig:hover{
+    font-weight: 500;
+    -webkit-text-stroke: 1px  #A3A3A3;
+}
+.Rio-input{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: inter,sans-serif;
+    width: 12vw;
+    height: 9vh;
+    font-size:20px;
+    font-weight: 700;
+    border: 1px solid #89C7F4;
+    background-color: #F9FAFB;
+    padding: 2rem;
+    /* background-color: red; */
+    border-radius: 1rem;
+    margin-left: 41.1rem;
 }
 .Rio h4{
     margin-left: 46.3rem;

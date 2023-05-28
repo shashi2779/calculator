@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./css/TimeFrame.css"
+import "./css/MainSection.css"
 
 function TimeFrame() {
   const [day,setDay] = useState('1 Day');

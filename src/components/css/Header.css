@@ -2,55 +2,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 html,body{
     width: 100vw;
     height: 100vh;
 }
 .Header-main{
+    position: relative;
     margin-top: -.3rem;
     width: 57.9vw;
     height: 8vh;
-    background-color: red;
+    /* background-color: red; */
     /* overflow: hidden; */
 }
 .head-p1{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding: .4rem; */
+    position: absolute;
+    width: 50%;
+    height: 8vh;
     /* background-color: red; */
 }
+.head-p1-h5{
+    display: flex;
+    align-items: center;
+    margin-top: .2rem;
+    margin-left: .2rem;
+    font-weight: 800;
+}
+
+.head-p2{
+    position: absolute;
+    width: 50%;
+    height:8vh ;
+   /* background-color: yellow;  */
+   margin-left: 50%;
+}
+.head-p2-arrow{
+    /* position: absolute; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: sans-serif;
+    /* background-color: blue; */
+    font-size: 2rem;
+
+}
+.head-p2-arrow:hover{
+    font-size: 2rem;
+    font-weight: 600;
+    color:#808080;
+}
+.head-p2-seccond{
+    position: relative;
+     /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.cake-main{
+    /* position: absolute; */
+    width: 78%;
+    height: 100%;
+    /* height: 3vh; */
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+}
+.switch-size{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    width: 22%;
+    height: 100%;
+    /* margin-left: 78%; */
+    /* background-color: black; */
+}
+
 .head-p1 h5{
     font-size: 1.3rem;
 }
-.head-p2{
-    /* background-color: red; */
-    display: flex;
-    /* align-items: center; */
-    margin-left: 43rem;
-    /* padding: .1rem; */
-    margin-bottom: .1rem;
-    width: 13.2vw;
-    height: 3vh;
-    background-color: yellow;
-}
-.cake-main{
-    width: 5vw;
-    height: 3vh;
-    display: flex;
-    align-items: center;
-    background-color: red;
-}
+
 .cake-head-2{
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 75%;
+    height: 75%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background-color: #4DD7DD;
     color: #FCEB74;
+    margin-left: 16.7rem;
     
 }
 .cake-main h4{
@@ -59,18 +103,9 @@ html,body{
 .head-p2 h4{
     color:#808080;
 }
-.switch-size{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 7vw;
-    height: 3vh;
-    /* margin-left: 5.5rem; */
-    /* background-color: black; */
+.switch{
+  margin-left: 1rem;
 }
-.head-p2 .switch-size{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    /* background-color: red; */
+.switch-size-h4{
+    margin-left: 1rem;
 }
