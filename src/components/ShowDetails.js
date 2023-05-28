@@ -14,11 +14,11 @@ function ShowDetails() {
         <button className='show-datails-1' onClick={()=> setShow(!show)} >
           { show === true ? <div className='hide-dev'>
             <h5>Hide Details</h5>
-            <i class="ri-arrow-up-s-line"></i>
+            <i class="ri-arrow-down-s-line"></i>
           </div>: 
           <div className='show-dev'>
             <h5>Show Details</h5>
-            <i class="ri-arrow-up-s-line"></i>
+            <i class="ri-arrow-down-s-line"></i>
           </div>
           }
         </button>
