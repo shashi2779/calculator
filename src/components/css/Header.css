@@ -10,13 +10,13 @@ html,body{
 }
 .Header-main{
     position: relative;
-    width: 56vw;
+    width: 58vw;
     height: 8vh;
     /* background-color: red; */
 }
 .head-p1{
     position: absolute;
-    width: 30vw;
+    width: 29vw;
     height: 8vh;
     /* background-color: red; */
 }
@@ -30,13 +30,13 @@ html,body{
 
 .head-p2{
     position: absolute;
-    width: 30vw;
+    width: 29vw;
     height:8vh ;
    /* background-color: yellow;  */
    margin-left: 50%;
 }
 .head-p2-arrow{
-    width: 30vw;
+    width: 29vw;
     height: 4vh;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ html,body{
 .head-p2-seccond{
     display: flex;
     align-items: center;
-    width: 30vw;
+    width: 29vw;
     height: 4vh;
 }
 .cake-main{
@@ -98,4 +98,12 @@ html,body{
 .switch-size-h4{
    
     margin-left: 1rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+    
+   
 }

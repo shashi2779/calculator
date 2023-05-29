@@ -21,5 +21,17 @@ body {
 }
 
 
-
+@media screen and (max-width: 600px) {
+    .main-section-white {
+        width: 94vw;
+        height: 92vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+        padding:.5rem;
+        /* background-color: red; */
+    
+    }
+   
+}
 
