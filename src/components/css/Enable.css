@@ -71,7 +71,7 @@ body {
     .enable {
         width: 90vw;
         height: 17vh;
-        background-color: pink;
+        /* background-color: pink; */
     }
     
     .enable-switch {
