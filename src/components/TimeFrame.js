@@ -19,9 +19,9 @@ function TimeFrame() {
           <div className='timeframe-2-1'>{day}</div>
           <div className='timeframe-2-1 timeframe-2-2 '>{oneWeek}</div>
           <div className='timeframe-2-1 timeframe-2-2 '>{oneMonth}</div>
-          <div className='timeframe-2-1 timeframe-2-2 '>{oneYear}</div>
-          <div className='timeframe-2-1 timeframe-2-2  '>{threeYear}</div>
-          <div className='timeframe-2-1 timeframe-2-2 '>{fiveYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2 timeframe-2-3 '>{oneYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2 timeframe-2-3'>{threeYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2 timeframe-2-3'>{fiveYear}</div>
         </div>
 
       </div>

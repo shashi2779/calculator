@@ -1,17 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100vw;
     height: 100vh;
 }
-.submit{
+
+.submit {
     display: flex;
     margin-top: 1.7rem;
 }
-.apply{
+
+.apply {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +26,12 @@ html,body{
     /* margin-left: 1rem; */
     border-radius: 1rem;
 }
-.apply:hover{
+
+.apply:hover {
     border: 2px solid #706d6d;
 }
-.cancle{
+
+.cancle {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +43,50 @@ html,body{
     border: 2px solid #706d6d;
     border-radius: 1rem;
 }
-.cancle:hover{
+
+.cancle:hover {
     border: 2px solid #333333;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .submit {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .apply {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: 7vh;
+        background-color: #333333;
+        color: white;
+        /* margin-left: 1rem; */
+        border-radius: 1rem;
+    }
+
+    .apply:hover {
+        border: 2px solid #706d6d;
+    }
+
+    .cancle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: 7vh;
+        background-color: white;
+        color: #333333;
+        margin-left: 1rem;
+        border: 2px solid #706d6d;
+        border-radius: 1rem;
+    }
+
+    .cancle:hover {
+        border: 2px solid #333333;
+    }
+
 }

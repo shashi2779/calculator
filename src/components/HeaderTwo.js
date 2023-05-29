@@ -17,14 +17,14 @@ function HeaderTwo() {
             type: "text",
             border: 'none', background: 'transparent', outline: 0
           }} />
-
+          
         </div>
 
         <div className='part-input'>
           <div className='part-2'>
             <button className='part-2-1'>USE BALANCE</button>
             <button className='part-2-2'>$1000</button>
-            <button className='part-2-2'>$100</button>
+            <button className='part-2-2 part-2-3'>$100</button>
           </div>
           <div className='part-2-2-1'>
             <h5 className='part-2-2-1-h5'>~ $20.82</h5>
