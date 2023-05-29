@@ -9,6 +9,7 @@ html,body{
 }
 .submit{
     display: flex;
+    margin-top: 1.7rem;
 }
 .apply{
     display: flex;

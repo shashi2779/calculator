@@ -8,25 +8,16 @@ html,body{
     height: 100vh;
 }
 .main-part{
-    position: relative;
     display: flex;
     align-items: center;
-    padding-left: 16rem;
+    justify-content: center;
     width: 100vw;
-    /* height: calc(120vh - 8vh); */
     height:128vh ;
-    padding: 0 1rem 0 1rem;
     background-color: #E5E5E5;
+    
 }
 
 @media screen and (max-width: 600px) {
-    .main-part{
-        display: flex;
-        align-items: center;
-        padding-left: 2.8rem;
-        width: 100vw;
-        height: calc(100vh - 8vh);
-        background-color: #E5E5E5;
-    }
+   
 
 }

@@ -13,15 +13,15 @@ function TimeFrame() {
   return (
     <>
       <div className='timeframe'>
-        <h3 className='timeframe-1'>Timeframe</h3>
-
+        <h3>Timeframe</h3>
+ 
         <div className='timeframe-2'>
           <div className='timeframe-2-1'>{day}</div>
-          <div className='timeframe-2-1 timeframe-2-2'>{oneWeek}</div>
-          <div className='timeframe-2-1 timeframe-2-2'>{oneMonth}</div>
-          <div className='timeframe-2-1 timeframe-2-2'>{oneYear}</div>
-          <div className='timeframe-2-1 timeframe-2-2'>{threeYear}</div>
-          <div className='timeframe-2-1 timeframe-2-2'>{fiveYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2 '>{oneWeek}</div>
+          <div className='timeframe-2-1 timeframe-2-2 '>{oneMonth}</div>
+          <div className='timeframe-2-1 timeframe-2-2 '>{oneYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2  '>{threeYear}</div>
+          <div className='timeframe-2-1 timeframe-2-2 '>{fiveYear}</div>
         </div>
 
       </div>

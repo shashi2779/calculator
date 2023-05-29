@@ -8,7 +8,7 @@ import Enable from './Enable'
 import RioInput from './RioInput'
 import Apply from './Apply'
 import ShowDetails from './ShowDetails'
-import "./css/MainPart.css"
+// import "./css/MainPart.css"
 
 function MainSection() {
   return (

@@ -12,20 +12,24 @@ html,body{
     width: 58vw;
     height: 17vh;
     /* background-color: blue; */
-    /* margin-left: 1rem; */
-    margin-top: .1rem;
+    margin-top: 1rem;
     font-family: sans-serif;
-    margin-bottom: 1.2rem;
+}
+.rio-current{
+    width: 58vw;
+    height: 3vh;
 }
 .Rio-input-header{
     display: flex;
     align-items: center;
-     padding: 1rem;
+    justify-content: space-between;
+     padding: 0 0rem 0 1.5rem;
      width: 58vw;
      height: 9vh;
      margin-top: .7rem;
      border: 1px solid #89C7F4;
-     background-color: #F9FAFB;
+     /* background-color: #F9FAFB; */
+     /* background-color: red; */
      border-radius: 1rem;
 }
 .Rio-input-header:hover{
@@ -43,30 +47,27 @@ html,body{
     -webkit-text-stroke: 1px  #A3A3A3;
 }
 .Rio-input{
-    display: flex;
-    align-items: center;
-    justify-content: end;
     font-family: inter,sans-serif;
-    width: 12vw;
+    width: 10vw;
     height: 9vh;
     font-size:20px;
     font-weight: 700;
     border: 1px solid #89C7F4;
     background-color: #F9FAFB;
-    padding: 2rem;
-    /* background-color: red; */
-    border-radius: 1rem;
-    margin-left: 41.1rem;
+    padding: 1rem;
+    /* background-color: blue; */
+    border-radius: .9rem;
+    /* margin-left: 41.1rem; */
 }
 .Rio h4{
-    margin-left: 46.3rem;
     font-weight: 700;
     color: #A3A3A3;
     font-size: .9rem;
+    text-align: end;
 }
 .Rio h5{
+    text-align: end;
     margin-top: .6rem;
-    margin-left: 47.6rem;
     color: #A3A3A3;
 }
 
